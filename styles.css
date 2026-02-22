@@ -1,0 +1,13 @@
+.story-script-regular {
+  font-family: "Story Script";
+}
+
+body{
+  margin: 0;
+  overflow: hidden;
+}
+
+.left-side > img:first-of-type{
+  height: 100vh;
+  width: 50vw;
+}
