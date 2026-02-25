@@ -11,3 +11,30 @@ body{
   height: 100vh;
   width: 50vw;
 }
+
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
+.right-side{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side > h1:first-of-type{
+  background-color: #f1f5f7;
+  height: 35vh;
+  margin: 0;
+  font-family: "Story Script";
+  display: flex;
+  align-items: center;
+  box-sizing:border-box;
+  padding: 20px;
+}
+
+.right-side > form{
+  height: 65vh;
+  box-sizing: border-box;
+  padding: 20px;
+}
