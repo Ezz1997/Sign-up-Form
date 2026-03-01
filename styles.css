@@ -34,7 +34,40 @@ body{
 }
 
 .right-side > form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: bisque;
   height: 65vh;
   box-sizing: border-box;
   padding: 20px;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container > input{
+  width: fit-content;
+}
+
+form > h1{
+  width: fit-content;
+  margin-left: 10px;
+}
+
+button{
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.input-group{
+  display: flex; 
+  flex-direction: row; 
+  gap: 32px; 
+  margin: 10px;
 }
