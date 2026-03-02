@@ -1,5 +1,5 @@
-.story-script-regular {
-  font-family: "Story Script";
+html {
+  font-family: "Story Script", Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -19,7 +19,6 @@ body{
 .left-side > h1{
   margin-top: auto;
   text-align: center;
-  font-family: "Story Script";
   font-size: large;
   word-spacing: 2px;
 }
@@ -36,10 +35,9 @@ body{
 }
 
 .right-side > h1:first-of-type{
-  background-color: #f1f5f7;
+  background-color: whitesmoke;
   height: 35vh;
   margin: 0;
-  font-family: "Story Script";
   display: flex;
   align-items: center;
   box-sizing:border-box;
@@ -50,7 +48,7 @@ body{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: bisque;
+  background-color: white;
   height: 65vh;
   box-sizing: border-box;
   padding: 20px;
@@ -76,6 +74,9 @@ button{
   padding: 5px;
   border-radius: 5px;
   margin: 10px;
+  background-color: #B1B3C1;
+  color: white;
+  border: none;
 }
 
 .input-group{
