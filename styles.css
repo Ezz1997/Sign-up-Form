@@ -32,10 +32,10 @@ body{
   display: flex;
   flex-direction: column;
   min-width: 50vw;
+  background-color: whitesmoke;
 }
 
 .right-side > h1:first-of-type{
-  background-color: whitesmoke;
   height: 35vh;
   margin: 0;
   display: flex;
