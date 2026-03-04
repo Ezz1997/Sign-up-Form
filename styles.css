@@ -49,7 +49,6 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   background-color: white;
-  height: 65vh;
   box-sizing: border-box;
   padding: 20px;
 }
@@ -72,6 +71,7 @@ form > h1{
 
 button:hover{
   background-color: #8b8da0;
+  cursor: pointer;
 }
 
 button{
@@ -84,6 +84,7 @@ button{
   background-color: #B1B3C1;
   color: white;
   border: none;
+  font-weight: bolder;
 }
 
 .input-group{
@@ -91,4 +92,10 @@ button{
   flex-direction: row; 
   gap: 64px; 
   margin: 10px;
+}
+
+.right-side > h1:last-of-type{
+  margin-left: 30px;
+  margin-top: 0px;
+  font-size: larger;
 }
